@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 170vh;
+}
+.event-container {
+  background-color: #323f4b;
+  width: 640px;
+  padding: 20px;
+  flex-shrink: 0;
+}
+@media screen and (min-width: 1200px) {
+  .event-container {
+    width: 900px;
+  }
+}
+.events-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.event-main-heading {
+  font-family: 'Roboto';
+  color: white;
+}

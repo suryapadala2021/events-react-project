@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.active-registration-container {
+  flex-grow: 1;
+}
+.initial {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 5px;
+  text-align: center;
+}
+.yet_to_register_img {
+  width: 100%;
+}
+.yet_to_register-heading {
+  font-family: 'Roboto';
+  color: #64748b;
+  text-align: center;
+  font-size: 16px;
+}
+.yet_to_register {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.register-btn {
+  color: white;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+}
+.closed-registrations-heading {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-size: 24px;
+  font-weight: 600;
+}
+.closed-ragistration-description{
+    font-family:"Roboto";
+    color: #475569;
+}
